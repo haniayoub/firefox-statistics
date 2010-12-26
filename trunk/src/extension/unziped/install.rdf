@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{26DCFA9E-3D25-4883-936C-FC784CB64C2F}</em:id>
+    <em:version>1.4.4</em:version>
+    <em:localized>
+		<Description>
+			<em:locale>en-US</em:locale>
+			<em:name>Firefox Statistics for DHT Implementation</em:name>
+			<em:description>This extension will gather anonymous usage statistics for Firefox to check the ability of implementing a DHT on Firefox. The data that will be gathered by this extenstion will be: Firefox usage times, Firefox version, Operating System Type and IP Addresses. Please note that your privacy will be protected. No personal information will be gathered at any time!</em:description>
+			<em:creator>Daniel Aranki, Hani Ayoub</em:creator>
+			<em:contributor>Daniel Aranki</em:contributor>
+			<em:contributor>Hani Ayoub</em:contributor>
+			<em:homepageURL>http://ffstatistics.juniorhosting.net</em:homepageURL>
+		</Description>
+	</em:localized>
+    <em:aboutURL>chrome://firefoxstatisticsfordhtimplementation/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://firefoxstatisticsfordhtimplementation/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

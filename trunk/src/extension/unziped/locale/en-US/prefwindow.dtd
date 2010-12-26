@@ -1,0 +1,6 @@
+<!ENTITY prefwindow.title "Firefox Statistics for DHT Implementation preferences">
+<!ENTITY pane1.title "Firefox Statistics for DHT Implementation preferences">
+<!ENTITY gatherStatistics.label "Gather Statistics">
+<!ENTITY gatherStatistics.accesskey "G">
+<!ENTITY myuser.label "UserID">
+<!ENTITY myuser.accesskey "I">

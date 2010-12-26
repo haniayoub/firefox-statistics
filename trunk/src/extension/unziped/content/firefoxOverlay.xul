@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://firefoxstatisticsfordhtimplementation/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://firefoxstatisticsfordhtimplementation/locale/firefoxstatisticsfordhtimplementation.dtd">
+<overlay id="firefoxstatisticsfordhtimplementation-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="firefoxstatisticsfordhtimplementation-strings" src="chrome://firefoxstatisticsfordhtimplementation/locale/firefoxstatisticsfordhtimplementation.properties"/>
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem id="firefoxstatisticsfordhtimplementationyourgui-hello" label="&firefoxstatisticsfordhtimplementationyourgui.label;" 
+              oncommand="TECHNIONFFStatFirefoxyourgui.onMenuItemCommand(event);"/>
+  </menupopup>
+</overlay>
