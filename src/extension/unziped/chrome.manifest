@@ -1,0 +1,4 @@
+content	firefoxstatisticsfordhtimplementation	content/
+locale	firefoxstatisticsfordhtimplementation	en-US	locale/en-US/
+skin	firefoxstatisticsfordhtimplementation	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://firefoxstatisticsfordhtimplementation/content/firefoxOverlay.xul
