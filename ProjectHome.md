@@ -1,0 +1,1 @@
+A Firefox extension gathers statistics in order to determine whether DHT can be implemented over Firefox or not
